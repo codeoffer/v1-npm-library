@@ -1,0 +1,21 @@
+{
+  "name": "codeoffer",
+  "version": "1.0.0",
+  "description": "Node JS API Wrapper for the public Codeoffer API",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeoffer/v1-npm-library.git"
+  },
+  "keywords": [
+    "codeoffer"
+  ],
+  "author": "CodeOffer",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/codeoffer/v1-npm-library/issues"
+  },
+  "homepage": "https://github.com/codeoffer/v1-npm-library#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.11"
+  }
+}
