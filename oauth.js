@@ -1,6 +1,6 @@
-const {Controller, Request} = require("./Api");
-const Vendor = require("./Vendor");
-const App = require("./App");
+const {Controller, Request} = require("./api");
+const Vendor = require("./vendor");
+const App = require("./app");
 
 class SessionToken {
     constructor(token, account, expires, app) {

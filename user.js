@@ -1,4 +1,4 @@
-const {Controller, Request} = require("./Api");
+const {Controller, Request} = require("./api");
 
 class User {
     constructor(uuid, username, profile_picture, email, access) {

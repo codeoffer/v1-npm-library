@@ -1,4 +1,4 @@
-const {Controller, Request} = require("./Api");
+const {Controller, Request} = require("./api");
 const {UnauthorizedException} = require("./Exceptions");
 
 class App {
