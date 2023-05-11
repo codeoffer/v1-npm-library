@@ -80,7 +80,7 @@ const user = await User.getUser(token);
 console.log(`Welcome: ${user.username}, do you own this App? ${user.access ? "Yes" : "No"}`);
 const assets = await App.getAssetDirectory(token);
 for(const asset of assets) {
-    console.log(`Name: ${asset.name}, Access: ${user.access ? "Yes" : "No"}`);
+    console.log(`Name: ${asset.name}, Access: ${asset.access ? "Yes" : "No"}`);
 }
 ```
 
