@@ -1,5 +1,5 @@
 const {Controller, Request} = require("./api");
-const {UnauthorizedException} = require("./Exceptions");
+const {UnauthorizedException} = require("./exceptions");
 
 class App {
     constructor(uuid, name, icon, vendor) {

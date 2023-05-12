@@ -1,6 +1,6 @@
 {
   "name": "codeoffer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Node JS API Wrapper for the public Codeoffer API",
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 const {BadRequestException, ConflictException, ForbiddenException, InternalServerException, NotFoundException,
     TimeoutException, UnauthorizedException
-} = require("./Exceptions");
+} = require("./exceptions");
 class Controller {
     async sendRequest(request) {
         let options = {
